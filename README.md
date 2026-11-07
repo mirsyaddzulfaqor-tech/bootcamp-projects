@@ -1,6 +1,6 @@
 # Data Science Bootcamp Projects
 
-Shorter analysis projects from the Digital Skola Data Science Bootcamp (2026), rebuilt as clean, executed notebooks with business-focused findings.
+Shorter analysis and modelling projects from the Digital Skola Data Science Bootcamp (2026), rebuilt as clean, executed notebooks with business-focused findings.
 
 ## Projects in this repo
 
@@ -20,6 +20,14 @@ KPI, category, region, shipping and discount analysis on 51,282 order lines (202
 
 ![Revenue by category and top products](images/category_products.png)
 
+### 3. [House price prediction (Ames, Iowa)](house_price_prediction.ipynb)
+Regression with data cleaning, feature engineering and model comparison on 1,460 home sales (Kaggle *House Prices*).
+* **Quality and size set the price.** The median home sells for $133k at quality 5 and $270k at quality 8. An engineered *total square footage* feature has a 0.83 correlation with log price.
+* **Lasso regression gives the best cross-validated error** (RMSE 0.110 on log price, about 11.7% typical error). It beat ridge, gradient boosting, random forest and a blend.
+* Predictions for the 1,459 unpriced test homes are saved in `data/house_prices_predictions.csv`.
+
+![House price drivers](images/house_price_drivers.png)
+
 ## Featured projects (separate repos)
 
 | Project | What it shows |
@@ -31,7 +39,7 @@ KPI, category, region, shipping and discount analysis on 51,282 order lines (202
 
 ## Run
 
-`pip install -r requirements.txt`, then open any notebook. `python build_notebooks.py` re-executes both notebooks from scratch.
+`pip install -r requirements.txt`, then open any notebook. `python build_notebooks.py` and `python build_house_prices.py` re-execute the notebooks from scratch.
 
 Data: public teaching datasets (`data/`).
 
