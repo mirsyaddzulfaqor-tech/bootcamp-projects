@@ -37,6 +37,7 @@ Regression with data cleaning, feature engineering and model comparison on 1,460
 | [Flight Price Prediction](https://github.com/mirsyaddzulfaqor-tech/flight-price-prediction) | Regression (R² 0.985), booking-window insight, Streamlit app. Bootcamp final project |
 | [Customer Churn Prediction](https://github.com/mirsyaddzulfaqor-tech/customer-churn-prediction) | Classification with imbalance handling; the top 20% of the ranking reaches 50% of churners |
 | [Customer Segmentation](https://github.com/mirsyaddzulfaqor-tech/customer-segmentation) | K-Means clustering into 4 marketing personas |
+| [Customer Segmentation & Product Recommendation](https://github.com/mirsyaddzulfaqor-tech/customer-segmentation-recommendation) | RFM + K-Means segments on 540k retail transactions; recommender tested on future purchases (44% hit rate vs 32% bestseller baseline) |
 | [Donor Reactivation System](https://github.com/mirsyaddzulfaqor-tech/donor-reactivation-demo) | RFM + ML priority queue, live Streamlit and Looker Studio demo |
 
 ## Run
