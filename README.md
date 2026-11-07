@@ -18,7 +18,9 @@ KPI, category, region, shipping and discount analysis on 51,282 order lines (202
 * **Discounts give away margin without adding volume.** Quantity stays at about 3 units per order at every discount level, while the margin drops from 50% to 41%.
 * Revenue is steady through the year (the best month is only about 14% above the weakest).
 
-![Revenue by category and top products](images/category_products.png)
+My original *Alchemist Project* deliverable was this Looker Studio dashboard on the same data. The notebook goes one step further with margin, discount and shipping analysis:
+
+<img src="images/alchemist_looker_dashboard.png" alt="Alchemist Looker Studio dashboard" width="520">
 
 ### 3. [House price prediction (Ames, Iowa)](house_price_prediction.ipynb)
 Regression with data cleaning, feature engineering and model comparison on 1,460 home sales (Kaggle *House Prices*).
